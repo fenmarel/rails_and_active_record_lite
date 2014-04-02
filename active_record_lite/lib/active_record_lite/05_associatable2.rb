@@ -1,6 +1,5 @@
 require_relative '04_associatable'
 
-# Phase V
 module Associatable
 
   def has_one_through(name, through_name, source_name)
